@@ -55,10 +55,27 @@ p {
 }
 header{
 	color: white;
+	margin-top: 5%;
+	padding-left: 1%;
+	width: 74%;
+	float: left;
 }
 aside{
 	float: right;
 	width: 25%;
-	background: #ccc;
-	color: #333;
+	background-color: brown;
+	height: 100%;
+	z-index: 2;
+}
+section{
+    padding-left: 1%;
+	width: 74%; 
+	margin: 5px 0px 1% 0px;
+	float: left;
+
+}
+footer{
+	text-align: center;
+	background-color: green;
+	position: bottom;
 }
