@@ -1,9 +1,64 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
 body
 {
-	background-color: #6E6E6E;
-}
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
 
+}
 nav
 {
-	font-size: 19px;
+	
+	background: #F60808;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+	position: fixed;
+	top: 1%;
+	width: 98.6%;
+	margin-left: 0.7%;
+	margin-right: 0.7%;
+
+
+}
+nav ul
+{
+	list-style: none;
+	float: left;
+	padding: 0px;
+	width: 100%;
+	display: table;
+	text-align: center;	
+	margin: 0.5%;
+}
+nav ul li
+{
+	display: inline-block;
+	float: none;
+	padding: 3px 10px;
+	margin: 2px;
+	background: #fafafa;
+	border-radius: 10px;
+	
+}
+nav ul li:hover
+{
+	background: #ccc;
+	text-decoration: underline;
+	border-radius: 25px;
+}
+p {
+	color:white;
+}
+header{
+	color: white;
+}
+aside{
+	float: right;
+	width: 25%;
+	background: #ccc;
+	color: #333;
 }
