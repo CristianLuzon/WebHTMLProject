@@ -4,7 +4,7 @@ html{
 }
 body
 {
-	background-color: #000000;
+	background-color: #252432;
 	padding: 0px;
 	margin: 0px;
 
@@ -12,7 +12,7 @@ body
 nav
 {
 	
-	background: #F60808;
+	background: #f69a4a;
 	margin: 0px;
 	padding: 0px;
 	border-radius: 10px;
@@ -55,27 +55,24 @@ p {
 }
 header{
 	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 5%;
-	padding-left: 1%;
-	width: 74%;
-	float: left;
+	width: 90%;
+	text-align: center;
 }
-aside{
-	float: right;
-	width: 25%;
-	background-color: brown;
-	height: 100%;
-	z-index: 2;
-}
-section{
-    padding-left: 1%;
-	width: 74%; 
-	margin: 5px 0px 1% 0px;
-	float: left;
 
+section{
+    
+	width: 90%; 
+	margin: 5% 5% 5% 5%;
+	text-align: center;
+	
 }
 footer{
 	text-align: center;
-	background-color: green;
-	position: bottom;
+	background-color: #85210f;
+	/*position: bottom;*/
+	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
