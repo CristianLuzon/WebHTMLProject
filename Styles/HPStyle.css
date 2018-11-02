@@ -1,4 +1,5 @@
-html{
+html
+{
 	margin: 0px;
 	padding: 0px;
 }
@@ -7,11 +8,9 @@ body
 	background-color: #252432;
 	padding: 0px;
 	margin: 0px;
-
 }
 nav
-{
-	
+{	
 	background: #f69a4a;
 	margin: 0px;
 	padding: 0px;
@@ -21,8 +20,6 @@ nav
 	width: 98.6%;
 	margin-left: 0.7%;
 	margin-right: 0.7%;
-
-
 }
 nav ul
 {
@@ -42,18 +39,19 @@ nav ul li
 	margin: 2px;
 	background: #fafafa;
 	border-radius: 10px;
-	
 }
 nav ul li:hover
 {
 	background: #ccc;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	border-radius: 25px;
 }
-p {
+p
+{
 	color:white;
 }
-header{
+header
+{
 	color: white;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -61,18 +59,16 @@ header{
 	width: 90%;
 	text-align: center;
 }
-
-section{
-    
+section
+{
 	width: 90%; 
 	margin: 5% 5% 5% 5%;
 	text-align: center;
-	
 }
-footer{
+footer
+{
+	display: inline-grid;
 	text-align: center;
 	background-color: #85210f;
-	/*position: bottom;*/
-	margin-bottom: 0%;
-	padding-bottom: 0%;
+	width: 100%;
 }
