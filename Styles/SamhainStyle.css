@@ -15,7 +15,7 @@ body
 }
 nav
 {	
-	background: #9458B7;
+	background: #561BA4;
 	color: white;
 	margin: 0px;
 	padding: 0px;
@@ -59,7 +59,7 @@ main
 }
 header
 {
-	color: #CD5C30;
+	color: #f64838;
 	font-size: 150%;
 	margin-left: auto;
 	margin-right: auto;
@@ -84,7 +84,7 @@ footer
 	display: inline-grid;
 	text-align: center;
 	background-color: #561BA4;
-	color: #FA6756;
+	color: white;
 	width: 100%;
 	margin-bottom: 0%;
 	position: fixed;
