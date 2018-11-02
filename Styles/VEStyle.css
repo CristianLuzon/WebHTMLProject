@@ -1,0 +1,39 @@
+body
+{
+	background-color: #161616;
+	padding: 0px;
+	margin: 0px;
+	/****Logo encima****/
+	margin-top: 15%;
+}
+header{
+	text-align: center;
+	color: white;
+}
+form{
+	text-align: center;
+	
+}
+input{
+	/*text-align: center;
+	width: 10%;
+	height: 10%;
+	flex-basis: 33.333%;*/
+	width: 3em;
+    height: 2em;
+    margin: 0em 0em 30px;
+    background: #93e41c00;
+    border: 2px solid #ef2e2e;
+    text-align: center;
+    color: #fff;
+    min-width: 0;
+    font-family: Anton,sans-serif;
+    font-size: 40px;
+    padding:0em;
+   /*background: brown;*/
+
+}
+footer{
+	text-align: center;
+	color: white;
+}
