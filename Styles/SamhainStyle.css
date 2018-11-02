@@ -1,25 +1,28 @@
 html
 {
+	background-color: #000;
 	margin: 0px;
 	padding: 0px;
+	background-image: url("../Media/Images/Shanhaim/animated-background.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover 100%;
 }
 body
 {
-	background-color: #252432;
 	padding: 0px;
 	margin: 0px;
 }
 nav
 {	
-	background: #f69a4a;
+	background: #9458B7;
+	color: white;
 	margin: 0px;
 	padding: 0px;
-	border-radius: 10px;
 	position: fixed;
-	top: 1%;
-	width: 98.6%;
-	margin-left: 0.7%;
-	margin-right: 0.7%;
+	top: 0%;
+	width: 100%;
+	margin: 0%;
 }
 nav ul
 {
@@ -37,38 +40,53 @@ nav ul li
 	float: none;
 	padding: 3px 10px;
 	margin: 2px;
-	background: #fafafa;
+	/*background: #fafafa;*/
 	border-radius: 10px;
 }
 nav ul li:hover
 {
-	background: #ccc;
+	border: double;
+	color: #f64838;
 	/*text-decoration: underline;*/
 	border-radius: 25px;
+	border-color: rgb(10, 10, 10, 0.5);
 }
-p
+main
 {
-	color:white;
+	color: white;
+	font-size: 100%;
+	
 }
 header
 {
-	color: white;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 5%;
-	width: 90%;
+	color: #CD5C30;
+	font-size: 150%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: 8%;
 	text-align: center;
 }
 section
 {
-	width: 90%; 
-	margin: 5% 5% 5% 5%;
-	text-align: center;
+	background-color: rgba(20, 27, 92, 0.7);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	border-radius: 3% 3%;
+	text-align: left;
+	font-size: 120%
+	
 }
 footer
 {
 	display: inline-grid;
 	text-align: center;
-	background-color: #85210f;
+	background-color: #561BA4;
+	color: #FA6756;
 	width: 100%;
+	margin-bottom: 0%;
+	position: fixed;
+    bottom: 0;
 }
