@@ -5,6 +5,7 @@ body
 	margin: 0px;
 	/****Logo encima****/
 	margin-top: 15%;
+
 }
 header{
 	text-align: center;
@@ -24,16 +25,26 @@ input{
     margin: 0em 0em 30px;
     background: #93e41c00;
     border: 2px solid #ef2e2e;
+    border-radius: 0.03em;
     text-align: center;
     color: #fff;
     min-width: 0;
-    font-family: Anton,sans-serif;
+    font-family: Anton, sans-serif;
     font-size: 40px;
     padding:0em;
-   /*background: brown;*/
-
+}
+input:focus{
+	background-color: black;
+	color: red;
 }
 footer{
 	text-align: center;
 	color: white;
+
+}
+img
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
