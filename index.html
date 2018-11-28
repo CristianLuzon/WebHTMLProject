@@ -5,7 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Home</title>
 		<link rel="stylesheet" href="Styles/HPStyle.css">
-		<link rel="stylesheet" href="Styles/PrimeraAnimacion.css">
+		<!--<link rel="stylesheet" href="Styles/PrimeraAnimacion.css">-->
+    <!--Este es un script de prueba sobre el sonido  -->
+		<audio id="audiotag1" src="Media/Audio/tigreautista.mp3" preload="auto"></audio>
+		<a href="javascript:play_single_sound();">Play 5-sec sound on single channel</a>
+			<script type="text/javascript">
+						function play_single_sound() {
+								document.getElementById('audiotag1').play();
+						}
+		 </script>
 	</head>
 	<body>
 		<!--<div class="wrapper">
@@ -16,19 +24,21 @@
 				<ul>
 					<b>
 						<li>HOME</li>
-							
+
 						<li>Introduction</li>
 						<li>Samhain</li>
 						<li>Media</li>
 						<li>FAQ</li>
 						<li>Contacts</li>
-						
+
 					</b>
 				</ul>
 			</nav>
+
 			<header>
 				<h1>Cristian & Eliass: a simple Halloween wiki</h1>
-			</header>	
+				<span onclick="play_single_sound();">HEHEHEHEHEHEEH XD</span>
+			</header>
 			<section>
 				<p>Item Item Item Item Item</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend venenatis nisl, vel venenatis erat semper in. Phasellus sodales viverra faucibus. Nunc at lobortis mi. Vivamus sed ante sed odio iaculis scelerisque ac tincidunt ante. Nam consectetur libero vel felis congue pellentesque. Suspendisse vehicula efficitur dui ut cursus. Morbi iaculis ligula vel risus feugiat, sed egestas urna luctus.
 
@@ -55,8 +65,8 @@
 				Donec lobortis malesuada aliquet. Sed vel egestas justo, nec varius purus. Maecenas eleifend dignissim nisl. Fusce nec lorem dui. Donec a ornare libero. Nullam sollicitudin, odio at cursus euismod, neque neque elementum nisi, accumsan consequat diam nisl vel felis. Fusce et leo urna. Sed tincidunt nec massa quis tempor. Cras bibendum id tortor eu volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis vulputate rutrum nibh. Vivamus commodo eros quis felis consequat, commodo ultrices ligula tincidunt. Suspendisse laoreet odio sed lectus cursus dictum.
 
 				Nulla consectetur pellentesque metus, sed efficitur nulla pellentesque a. Aenean lacinia ante libero, quis fringilla dui viverra quis. Vivamus convallis id ante id interdum. Fusce a purus malesuada, iaculis ex placerat, molestie libero. Aenean sodales ac libero et vulputate. In euismod lectus sed nulla ultricies, eget placerat felis placerat. Fusce eu accumsan erat, vitae ultrices sapien. Phasellus eu condimentum elit, eu varius risus. Proin metus nulla, pellentesque et orci at, luctus rhoncus odio. Nulla iaculis porttitor dictum.</p>
-				
-			</section>		
+
+			</section>
 			<!--<aside>
 				<p>Name <br>Type <br>Info <br>Location</p>
 			</aside>-->

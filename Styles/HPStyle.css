@@ -10,7 +10,7 @@ body
 	margin: 0px;
 }
 nav
-{	
+{
 	background: #f69a4a;
 	margin: 0px;
 	padding: 0px;
@@ -28,7 +28,7 @@ nav ul
 	padding: 0px;
 	width: 100%;
 	display: table;
-	text-align: center;	
+	text-align: center;
 	margin: 0.5%;
 }
 nav ul li
@@ -61,7 +61,7 @@ header
 }
 section
 {
-	width: 90%; 
+	width: 90%;
 	margin: 5% 5% 5% 5%;
 	text-align: center;
 }
