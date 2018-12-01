@@ -4,7 +4,7 @@ body
 	padding: 0px;
 	margin: 0px;
 	/****Logo encima****/
-	margin-top: 3.2%;
+	margin-top: 15%;
 
 }
 header{
@@ -36,59 +36,29 @@ input{
 input:focus{
 	background-color: black;
 	color: red;
-	outline:none;
-}
-button {
-    color: #ef2e2e;
-    text-transform: uppercase;
-    background: transparent;
-    border-radius: 0;
-    border: 0;
-    border-bottom: 2px solid #ef2e2e;
-    padding: 5px 0;
-    font-size: 14px;
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
-}
-button:focus{
-	outline: none;
-}
-/*
-*OJO CON LA COMA!!!!!!
-*/
-h1, h2, h3, {
-    margin-bottom: .5em;
-    color: #fff;
-    font-family: Anton,sans-serif;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
-h1{
-	font-size: 50px;
 }
 footer{
 	text-align: center;
 	color: white;
 	font: inherit;
 }
-/*p{
+p{
 
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}*/
+}
 .footer p {
     font-size: 11px;
     font-weight: 200;
     padding: 5px 0;
 }
 .footer .copyright {
-    font-size: 14px;
+    font-size: 16px;
 
 }
-.footer h3 a {
+.footer h2 a {
     font-weight: 500;
     font-size: 14px;
     color: #fff;
@@ -100,9 +70,6 @@ a {
 		vertical-align: inherit;
 		display:inline-block;
 		color: white;
-		font-size: 16px;
-		text-transform: uppercase;
-		font-family: "Arial";
 
 }
 

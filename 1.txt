@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Halloween Weeb</title>
+		<link rel="stylesheet" href="Styles/VEStyle.css">
+	</head>
+	<body>
+		<main>
+			<header>
+				<p>Content in this product may not be appropriate for all ages, or may not be appropriate for viewing at work.	</p>
+				<h1>Introduce your age</h1>
+			</header>
+			<form>
+				<input type="numeric" name="day" size="1" maxlength="2" min="1" max="31" placeholder="DD"><input type="numeric" name="month" size="1" maxlength="2" min="1" max="31" placeholder="MM"><input type="numeric" name="year" size="1" maxlength="4" min="1" max="31" placeholder="YYYY">
+			</form>
+		</main>
+		<img src="Media/images/ValidateAge/CatBack.gif" alt="Watchcat">
+		<footer class="footer">
+			<p class="copyright">© 2015-2018 Behaviour Interactive Inc. All rights reserved.</p>
+			<nav class="nav-footer">
+				<h2><a href="https://www.bhvr.com/digital-privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bhvr.com/digital-tou">Terms of Use</a></h2>
+				<!-- Lo que he utilizado entre las etiquetas "a" se conoce como "non-breaking space" -->
+				<!--
+				<h2>
+					<li>
+						<a href="https://www.bhvr.com/digital-privacy" target="_blank">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="https://www.bhvr.com/digital-tou" target="_blank">Terms of Use</a>
+					</li>
+				</h2>-->
+
+			</nav>
+
+		</footer>
+
+	</body>
+</html>
