@@ -5,6 +5,20 @@
 						<meta http-equiv="X-UA-Compatible" content="IE=edge">
 						<title>Validation</title>
 						<link rel="stylesheet" href="Styles/VEStyle.css">
+						<script>
+		          function play(index){
+		              var audio = document.getElementById("audio"+index);
+
+		              audio.play();
+		          }
+
+		        </script>
+						<!--<a nohref value="PLAY"  onmouseover="play(1)">Your Text 1</a>
+		        <a nohref value="PLAY"  onmouseover="play(2)">Your Text 2</a>-->
+		       <!-- <a nohref value="PLAY"  onmouseover="play(3)">Your Text 3</a>-->
+		        <!--<audio id="audio1" src="../Media/Audio/tigreautista.mp3"></audio>
+		        <audio id="audio2" src="../Media/Audio/InuyashaBattleTheme.mp3" ></audio>-->
+		        <audio id="audio3" src="Media/Audio/SENUA.wav" ></audio>
 	</head>
 	<body>
 		<main>
@@ -14,13 +28,16 @@
 						<h2>Please tell us your date of birth</h2>
 			</header>
 			<form>
-						<input type="numeric" name="day" size="1" maxlength="2" min="1" max="31" placeholder="DD">
-						<input type="numeric" name="month" size="1" maxlength="2" min="1" max="31" placeholder="MM">
-						<input type="numeric" name="year" size="1" maxlength="4" min="1" max="31" placeholder="YYYY">
+
+						<a nohref value="PLAY"  onmouseover="play(3)">
+								<input type="numeric" name="day" size="1" maxlength="2" min="1" max="31" placeholder="DD">
+								<input type="numeric" name="month" size="1" maxlength="2" min="1" max="31" placeholder="MM">
+								<input type="numeric" name="year" size="1" maxlength="4" min="1" max="31" placeholder="YYYY">
+					  </a>
 
 			</form>
 			<!--El siguiente form tan solo lleva a la pagina de google de momento-->
-			<form action="index.html">
+			<form action="SubPages/NavBar.html">
     				<button type="submit" value="Go to Google">Validate</button>
 			</form>
 		</main>
