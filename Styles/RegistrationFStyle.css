@@ -1,0 +1,73 @@
+main
+{
+	display: flex;
+	flex-direction: column;
+	font-family: "Georgia";
+}
+h1
+{
+	text-align: center;
+	margin: 1%;
+}
+div
+{
+ 	margin: 10px 0px;
+ 	display: flex;
+ 	flex-basis: 100%;
+ 	text-align: center;
+ 	
+}
+fieldset
+{
+
+	display: flex;
+	flex-basis: 80%;
+	flex-flow: row wrap;
+	padding: 15px 30px;
+	position: static;
+	left: 50%;
+	border: 0.1em dashed #e1e2ff;
+	border-left: none; 
+	border-right: none; 
+}
+fieldset:first-of-type
+{
+	margin-top: 0.2em;
+	margin-bottom: 2em;
+}
+fieldset:last-of-type
+{
+	margin-bottom: 0.7em;
+}
+form
+{
+	width: 41.5em;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-size: 1.1em;
+
+	background-color: #d1a3ff;
+	border-radius: 1em;
+}
+input
+{
+	border-top-style: none; 
+	border-left-style:none; 
+	border-right-style: none;
+	background-color: #d1a3ff;
+	border-bottom: 0.15em dashed #e1e2ff;
+	font-size: 0.9em;
+	color-interpolation-filters: #74b38b;
+}
+:not(output):-moz-ui-invalid {
+    box-shadow: none;
+}
+input:invalid
+{
+	border-top-style: none; 
+	border-left-style:none; 
+	border-right-style: none;
+	border-bottom-color: #c72326;  
+}
+/*Falsta formulario responsive*/
