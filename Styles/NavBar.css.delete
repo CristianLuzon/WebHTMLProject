@@ -86,7 +86,7 @@ nav ul li a {
 
 }*/
 
-@media(max-width: 890px) {
+@media(max-width: 800px) {
 
       .logo {
             position: fixed;
