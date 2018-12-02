@@ -1,65 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-						<meta charset="utf-8">
-						<meta http-equiv="X-UA-Compatible" content="IE=edge">
-						<title>Validation</title>
-						<link rel="stylesheet" href="Styles/VEStyle.css">
-						<script>
-		          function play(index){
-		              var audio = document.getElementById("audio"+index);
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Validation</title>
+		<link rel="stylesheet" href="Styles/VEStyle.css">
+		<script>
+  			function play(index){
+      		var audio = document.getElementById("audio"+index);
+      			audio.play();
+  			}
 
-		              audio.play();
-		          }
-
-		        </script>
-						<!--<a nohref value="PLAY"  onmouseover="play(1)">Your Text 1</a>
-		        <a nohref value="PLAY"  onmouseover="play(2)">Your Text 2</a>-->
-		       <!-- <a nohref value="PLAY"  onmouseover="play(3)">Your Text 3</a>-->
-		        <!--<audio id="audio1" src="../Media/Audio/tigreautista.mp3"></audio>
-		        <audio id="audio2" src="../Media/Audio/InuyashaBattleTheme.mp3" ></audio>-->
-		        <audio id="audio3" src="Media/Audio/SENUA.wav" ></audio>
+		</script>
+		<!--<a nohref value="PLAY"  onmouseover="play(1)">Your Text 1</a>
+		<a nohref value="PLAY"  onmouseover="play(2)">Your Text 2</a>-->
+		<!-- <a nohref value="PLAY"  onmouseover="play(3)">Your Text 3</a>-->
+		<!--<audio id="audio1" src="../Media/Audio/tigreautista.mp3"></audio>
+		<audio id="audio2" src="../Media/Audio/InuyashaBattleTheme.mp3" ></audio>-->
+		<audio id="audio3" src="Media/Audio/SENUA.wav" ></audio>
 	</head>
 	<body>
 		<main>
 			<header>
-						<h1>LET'S SEE SOME I.D.</h1>
-						<p>Content in this product may not be appropriate for all ages, or may not be appropriate for viewing at work.	</p>
-						<h2>Please tell us your date of birth</h2>
+				<h1>LET'S SEE SOME I.D.</h1>
+				<p>Content in this product may not be appropriate for all ages, or may not be appropriate for viewing at work.	</p>
+				<h2>Please tell us your date of birth</h2>
 			</header>
 			<form>
-
-						<a nohref value="PLAY"  onmouseover="play(3)">
-								<input type="numeric" name="day" size="1" maxlength="2" min="1" max="31" placeholder="DD">
-								<input type="numeric" name="month" size="1" maxlength="2" min="1" max="31" placeholder="MM">
-								<input type="numeric" name="year" size="1" maxlength="4" min="1" max="31" placeholder="YYYY">
-					  </a>
-
+				<a nohref value="PLAY"  onmouseover="play(3)">
+					<input type="numeric" name="day" size="1" maxlength="2" min="1" max="31" placeholder="DD">
+					<input type="numeric" name="month" size="1" maxlength="2" min="1" max="31" placeholder="MM">
+					<input type="numeric" name="year" size="1" maxlength="4" min="1" max="31" placeholder="YYYY">
+			  </a>
 			</form>
 			<!--El siguiente form tan solo lleva a la pagina de google de momento-->
 			<form action="SubPages/NavBar.html">
-    				<button type="submit" value="Go to Google">Validate</button>
+    			<button type="submit" value="Go to Google">Validate</button>
 			</form>
 		</main>
-						<img src="Media/images/ValidateAge/CatBack.gif" alt="Watchcat">
+			<img src="Media/Animation/SleepyCatEx.gif" alt="Watchcat">
 		<footer class="footer">
-
 			<nav class="nav-footer">
-						<h3><a href="https://www.bhvr.com/digital-privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bhvr.com/digital-tou">Terms of Use</a></h3>
-						<!-- Lo que he utilizado entre las etiquetas "a" se conoce como "non-breaking space" -->
-						<!--
-						<h2>
-							<li>
-								<a href="https://www.bhvr.com/digital-privacy" target="_blank">Privacy Policy</a>
-							</li>
-							<li>
-								<a href="https://www.bhvr.com/digital-tou" target="_blank">Terms of Use</a>
-							</li>
-						</h2>-->
-
+				<h3><a href="https://www.bhvr.com/digital-privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bhvr.com/digital-tou">Terms of Use</a></h3>
+				<!-- Lo que he utilizado entre las etiquetas "a" se conoce como "non-breaking space" -->
+				<!--
+				<h2>
+					<li>
+						<a href="https://www.bhvr.com/digital-privacy" target="_blank">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="https://www.bhvr.com/digital-tou" target="_blank">Terms of Use</a>
+					</li>
+				</h2>-->
 			</nav>
-						<p class="copyright">© 2015-2018 Behaviour Interactive Inc. All rights reserved.</p>
+				<p class="copyright">© 2015-2018 Behaviour Interactive Inc. All rights reserved.</p>
 		</footer>
-
 	</body>
 </html>
