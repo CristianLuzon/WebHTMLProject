@@ -1,7 +1,13 @@
-html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: radial-gradient(#cce6ff, #ffcc80); 
+}
+*
+{
+	font-family: Lucida Console;
 }
 main
 {
@@ -9,19 +15,18 @@ main
 	flex-direction: column;
 	font-family: "Georgia";
 }
-
 h1
 {
 	text-align: center;
 	margin: 1em;
+	font-family: arial;
 }
 .content
 {
  	margin: 10px 0px;
  	display: flex;
  	flex-basis: 100%;
- 	text-align: center;
- 	
+ 	text-align: center;	
 }
 fieldset
 {
@@ -34,6 +39,7 @@ fieldset
 	border: 0.1em dashed #7a00cc;
 	border-left: none; 
 	border-right: none; 
+	font-size: 1.0em;
 }
 fieldset:first-of-type
 {
@@ -46,14 +52,15 @@ fieldset:last-of-type
 }
 form
 {
-	width: 45em;
+	width: 50em;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	font-size: 1.1em;
-
+	padding-top: 1.9em;
 	background-color: #d1a3ff;
 	border-radius: 1em;
+	padding-bottom: 0.65em;
+	box-shadow: 0px 0px 7px 5px rgba(51, 0, 51, 0.3);
 }
 :not(output):-moz-ui-invalid
 {
@@ -77,7 +84,27 @@ input[type=date]
 {
 	font-size: 1.2em;
 }
-
+.buttonContenedor
+{
+	text-align: center;
+}
+button
+{
+	text-decoration: none;
+	height: 2.2em;
+	width: 6em;
+	background-color: rgba(153, 0, 255, 0.2);
+	border: none;
+	border-radius: 5px;
+	/*border: 0.2em solid #7a00cc;*/
+	box-shadow: 2px 2px 1px 1.1px #7a00cc;
+	transition: 0.3s;	
+}
+button:active
+{
+	box-shadow: 2px 2px 1px 0px #7a00cc;
+	transition: 0.3s;
+}
 input:invalid
 {
 	border-top-style: none; 
@@ -87,27 +114,29 @@ input:invalid
 	-moz-box-shadow: rgba(153, 0, 255, 0.2);
 	-webkit-box-shadow: rgba(153, 0, 255, 0.2);
 	box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
-	border-radius: 0.3em;
+	outline-style: 0.3em;
 }
-.logo {
-      line-height: 60px;
-      position: fixed;
-      float: left;
-      margin: 16px 46px;
-      color: #fff;
-      font-weight: bold;
-      font-size: 20px;
-      letter-spacing: 2px;
+.logo
+{
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
-
-nav {
+nav
+{
 	position: fixed;
 	width: 100%;
 	line-height: 60px;
 	z-index: 1;
 }
 
-nav ul {
+nav ul
+{
     line-height: 60px;
     list-style: none;
     background: rgba(0, 0, 0, 0);
@@ -119,61 +148,69 @@ nav ul {
     padding-right: 40px;
     transition: 1s;
 }
-nav ul li {
-      display: inline-block;
-      padding: 16px 40px;;
+nav ul li
+{
+    display: inline-block;
+    padding: 16px 40px;;
 }
 
-nav ul li a {
-      text-decoration: none;
-      color: blue;
-      font-size: 16px;
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
 }
 
-.menu-icon {
-      line-height: 60px;
-      width: 100%;
-      background: #000;
-      text-align: right;
-      box-sizing: border-box;
-      padding: 5% 10%;
-      cursor: pointer;
-      color: #fff;
-      display: none;
+.menu-icon
+{
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 5% 10%;
+    cursor: pointer;
+    color: #fff;
+    display: none;
 }
-.fa{
-  font-size: 2.8em;
+.fa
+{
+    font-size: 2.8em;
 }
 
 @media(max-width: 800px)
 {
-	.logo {
+	.logo
+	{
         position: fixed;
         top: 0;
         margin-top: 16px;
     }
 
-    nav ul {
+    nav ul
+    {
         max-height: 0px;
         background: #000;
     }
-
-    nav.black ul {
+    nav.black ul
+    {
         background: #000;
     }
-
-    .showing {
-        max-height: 34em;
-    }
-
-   nav ul li {
+   nav ul li
+   {
         box-sizing: border-box;
         width: 100%;
-        padding: 24px;
+        padding: 1px;
         text-align: center;
-    }
 
-   .menu-icon {
+    }
+    nav ul li a
+    {
+    	color: white;
+    	font-size: 1.2em;
+    }
+   .menu-icon
+   {
         display: block;
     }
 	.content 
@@ -181,11 +218,12 @@ nav ul li a {
 		display: grid;
 		flex-direction: column;
 	}
+	.showing
+    {
+        max-height: 34em;
+    }
+
 	input
-	{
-		text-align: center;
-	}
-	input[type=date]
 	{
 		text-align: center;
 	}
@@ -193,7 +231,6 @@ nav ul li a {
     {
     	width: 90%;
     	min-width: 233px;
+    	margin-bottom: 5%;
     }
-
 }
-
