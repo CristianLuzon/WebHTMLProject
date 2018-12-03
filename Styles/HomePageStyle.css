@@ -44,7 +44,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
-      z-index: 1:;
+      z-index: 1;
 }
 
 nav ul {
@@ -98,6 +98,9 @@ video
   max-width: 201.65vh;
   overflow: hidden;
   background: auto;
+}
+.fa{
+  font-size: -webkit-xxx-large;
 }
 
 @media(max-width: 800px) {
