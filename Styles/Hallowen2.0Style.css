@@ -7,26 +7,24 @@ html, body {
 body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
+      background: gray;
 }
 
 header {
       width: 100%;
-      height: 60vh;
-      /*background: url(../Media/Images/home/Vela.jpg) no-repeat 50% 50%;*/
+      height: 100vh;
+      background: url(../Media/Images/home/Vela.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .content {
-      width: 94%;
-      margin: 0em auto;
       font-size: 20px;
       line-height: 30px;
       text-align: justify;
-      color: white;
+      float: left;
 }
 p{
-      margin-right: 5%;
-      margin-left: 5%;
+      margin: 2%;
 }
 
 .logo {
@@ -44,7 +42,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
-      z-index: 1:;
+      z-index: 1;
 }
 
 nav ul {
@@ -54,15 +52,11 @@ nav ul {
       overflow: hidden;
       color: #fff;
       padding: 0;
-      text-align: right;
+      text-align: center;
       margin: 0;
       padding-right: 40px;
       transition: 1s;
 }
-
-/*nav.black ul {
-      background: #000;
-}*/
 
 nav ul li {
       display: inline-block;
@@ -86,20 +80,6 @@ nav ul li a {
       color: #fff;
       display: none;
 }
-/*.icono{
-  margin: 40%;
-
-
-}*/
-video
-{
-  z-index: -100;
-  content
-  max-width: 201.65vh;
-  overflow: hidden;
-  background: auto;
-}
-
 @media(max-width: 800px) {
 
       .logo {
