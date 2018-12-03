@@ -7,40 +7,45 @@
 		<link rel="stylesheet" href="../Styles/AccountFStyle.css">
 	</head>
 	<body>
-		<main>
-			<!--
-			<nav>
-				<ul>
-					<li>HOME</li>
-					<li>Weapons</li>
-					<li>Armors</li>
-					<li>Items</li>
-					<li>Consumables</li>
-					<li>Spells</li>
-				</ul>
-			</nav>
-		-->
-			<form>
-				<header>
-					<h1>Halloween WebSite Contact Form</h1>
-				</header>
-
-					<legend>Messege</legend>
-					<div class="message">
-						<div class="name">
-							<label>Name: </label><input type="text">
-						</div>
-
-						<div class="email">
-							<label>E-mail: </label><input type="email">
-						</div>
-						<div class="text">
-							<label>Messege: </label>
-							<textarea name="message" id="" cols=80 rows="5"></textarea>
-						</div>
+			<div class="container">
+				<div class="wrapper">
+					<div class="company-info">
+						<h3>CONTACT US</h3>
 					</div>
 
-			</form>
-		</main>
+					<div class="contact">
+						<h3>Send me an email through this form.</h3>
+						<form>
+							<p>
+								<label>First Name</label>
+								<input type="text" name="firstname" >
+							</p>
+							<p>
+								<label>Last Name</label>
+								<input type="text" name="lastname" >
+							</p>
+							<p>
+								<label>Email Address</label>
+								<input type="email" name="email" >
+							</p>
+							<p>
+								<label>Phone Number</label>
+								<input type="text" name="phone" >
+							</p>
+							<p class="message">
+								<label>Message</label>
+								<textarea rows="5" name="message" ></textarea>
+							</p>
+							<p class="submit-btn">
+								<button >Submit</button>
+							</p>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
 	</body>
 </html>
