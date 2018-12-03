@@ -1,15 +1,21 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
 main
 {
 	display: flex;
 	flex-direction: column;
 	font-family: "Georgia";
 }
+
 h1
 {
 	text-align: center;
-	margin: 1%;
+	margin: 1em;
 }
-div
+.content
 {
  	margin: 10px 0px;
  	display: flex;
@@ -19,14 +25,13 @@ div
 }
 fieldset
 {
-
 	display: flex;
 	flex-basis: 80%;
 	flex-flow: row wrap;
 	padding: 15px 30px;
 	position: static;
 	left: 50%;
-	border: 0.1em dashed #e1e2ff;
+	border: 0.1em dashed #7a00cc;
 	border-left: none; 
 	border-right: none; 
 }
@@ -41,7 +46,7 @@ fieldset:last-of-type
 }
 form
 {
-	width: 41.5em;
+	width: 45em;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
@@ -50,24 +55,145 @@ form
 	background-color: #d1a3ff;
 	border-radius: 1em;
 }
+:not(output):-moz-ui-invalid
+{
+    box-shadow: none;
+}
 input
 {
 	border-top-style: none; 
 	border-left-style:none; 
 	border-right-style: none;
 	background-color: #d1a3ff;
-	border-bottom: 0.15em dashed #e1e2ff;
+	border-bottom: 0.15em dashed #7a00cc;
 	font-size: 0.9em;
 	color-interpolation-filters: #74b38b;
+	-moz-box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
+	-webkit-box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
+	box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
+	border-radius: 0.3em;
 }
-:not(output):-moz-ui-invalid {
-    box-shadow: none;
+input[type=date]
+{
+	font-size: 1.2em;
 }
+
 input:invalid
 {
 	border-top-style: none; 
 	border-left-style:none; 
 	border-right-style: none;
-	border-bottom-color: #c72326;  
+	border-bottom-color: #c72326;
+	-moz-box-shadow: rgba(153, 0, 255, 0.2);
+	-webkit-box-shadow: rgba(153, 0, 255, 0.2);
+	box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
+	border-radius: 0.3em;
 }
-/*Falsta formulario responsive*/
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	line-height: 60px;
+	z-index: 1;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: blue;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 5% 10%;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+.fa{
+  font-size: 2.8em;
+}
+
+@media(max-width: 800px)
+{
+	.logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+   nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+   .menu-icon {
+        display: block;
+    }
+	.content 
+	{
+		display: grid;
+		flex-direction: column;
+	}
+	input
+	{
+		text-align: center;
+	}
+	input[type=date]
+	{
+		text-align: center;
+	}
+    form
+    {
+    	width: 90%;
+    	min-width: 233px;
+    }
+
+}
+
