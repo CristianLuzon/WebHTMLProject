@@ -39,14 +39,12 @@ p{
       font-size: 20px;
       letter-spacing: 2px;
 }
-
 nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
       z-index: 1;
 }
-
 nav ul {
       line-height: 60px;
       list-style: none;
@@ -59,22 +57,15 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
-
-/*nav.black ul {
-      background: #000;
-}*/
-
 nav ul li {
       display: inline-block;
       padding: 16px 40px;;
 }
-
 nav ul li a {
       text-decoration: none;
       color: #fff;
       font-size: 16px;
 }
-
 .menu-icon {
       line-height: 60px;
       width: 100%;
@@ -134,5 +125,4 @@ video
       .menu-icon {
             display: block;
       }
-
 }

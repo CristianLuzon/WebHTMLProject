@@ -7,7 +7,7 @@ html, body {
 body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
-      background: gray;
+      background: #cccccc;
 }
 
 header {
@@ -22,9 +22,12 @@ header {
       line-height: 30px;
       text-align: justify;
       float: left;
+      padding: 1%;
 }
 p{
       margin: 2%;
+      padding: 1%;
+      color: #0d0d0d;
 }
 
 .logo {

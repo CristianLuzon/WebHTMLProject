@@ -1,9 +1,13 @@
-html
+html body
 {
-	background: #391339;
+	background-image:  radial-gradient(#ffb3ff, #8080ff);
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 }
 main
 {
+	padding-top:2.5em;
 	display: grid;
 	grid-template-columns: 25% 75%;
 }
@@ -11,11 +15,10 @@ aside
 {
 	display: block;
 	padding: 15% 0% 0% 5%;
-
 }
 article
 {
-	padding: 7% 2% 0% 2.5%;
+	padding: 7% 2% 3% 2.5%;
 	display: block;
 }
 p
@@ -33,14 +36,15 @@ a
 	text-decoration: none;
 	color: black;
 }
-ul
+aside ul
 {
-	border: 0.2em red solid;
+	border: 0.2em  solid rgba(255, 204, 204 ,0.2);
 	border-radius: 5%;
-	background: #ff9999;
+	background:  #ff8080;
+	box-shadow: 0px 0px 7px 5px rgba(255, 230, 230, 0.2);
 
 }
-ul li
+aside ul li
 {
 	margin: 5% 2%;
 	/*color:  #ff9999;*/
@@ -48,16 +52,59 @@ ul li
 .content
 {
 	padding: 2%;
-	border: 0.3em #602060 solid;
+	background: #ff99cc;
+	border: 0.3em solid rgba(255, 204, 230, 0.2);
 	border-radius: 2%;
-	background: #b3b3ff;
+	box-shadow: 0px 0px 7px 5px rgba(255, 230, 243, 0.2);
 }
 
-
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 1;
+}
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: left;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+nav ul li {
+      display: inline-block;
+	  margin: auto 4%;
+}
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.25em;
+}
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 3% 10%;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+.fa
+{
+    font-size: 2.8em;
+}
 @media(max-width: 750px)
 {
 	main
 	{
+		padding-top: 6em;
 		display: block;
 	}
 	ul
@@ -73,10 +120,30 @@ ul li
 	}
 	aside
 	{
-		padding: 2% 0% 0% 0%;
+		padding: 7% 2% 0% 2.5%;
 	}
+
 	aside ul h2
 	{
 		text-align: center;
+	}
+
+	nav ul {
+		  max-height: 0px;
+		  background: #000;
+	}
+	nav.black ul {
+		  background: #000;
+	}
+	.showing {
+		  max-height: 34em;
+	}
+	nav ul li {
+		  box-sizing: border-box;
+		  width: 100%;
+		  text-align: center;
+	}
+	.menu-icon {
+		  display: block;
 	}
 }

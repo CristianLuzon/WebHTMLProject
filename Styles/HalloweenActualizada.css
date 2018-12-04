@@ -5,7 +5,7 @@ body{
   position: relative;
 }
 .section nav {
-      position:   fixed;
+      position: fixed;
       width: 100%;
       line-height: 60px;
       top: 0;
