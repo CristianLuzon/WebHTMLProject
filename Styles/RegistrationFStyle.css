@@ -3,7 +3,7 @@ html, body
     margin: 0;
     padding: 0;
     width: 100%;
-    background-image: radial-gradient(#cce6ff, #ffcc80); 
+    background-image: radial-gradient(#cce6ff, #ffcc80);
 }
 *
 {
@@ -26,7 +26,7 @@ h1
  	margin: 10px 0px;
  	display: flex;
  	flex-basis: 100%;
- 	text-align: center;	
+ 	text-align: center;
 }
 fieldset
 {
@@ -37,8 +37,8 @@ fieldset
 	position: static;
 	left: 50%;
 	border: 0.1em dashed #7a00cc;
-	border-left: none; 
-	border-right: none; 
+	border-left: none;
+	border-right: none;
 	font-size: 1.0em;
 }
 fieldset:first-of-type
@@ -68,8 +68,8 @@ form
 }
 input
 {
-	border-top-style: none; 
-	border-left-style:none; 
+	border-top-style: none;
+	border-left-style:none;
 	border-right-style: none;
 	background-color: #d1a3ff;
 	border-bottom: 0.15em dashed #7a00cc;
@@ -98,7 +98,7 @@ button
 	border-radius: 5px;
 	/*border: 0.2em solid #7a00cc;*/
 	box-shadow: 2px 2px 1px 1.1px #7a00cc;
-	transition: 0.3s;	
+	transition: 0.3s;
 }
 button:active
 {
@@ -107,8 +107,8 @@ button:active
 }
 input:invalid
 {
-	border-top-style: none; 
-	border-left-style:none; 
+	border-top-style: none;
+	border-left-style:none;
 	border-right-style: none;
 	border-bottom-color: #c72326;
 	-moz-box-shadow: rgba(153, 0, 255, 0.2);
@@ -151,7 +151,7 @@ nav ul
 nav ul li
 {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 40px;
 }
 
 nav ul li a
@@ -213,7 +213,7 @@ nav ul li a
    {
         display: block;
     }
-	.content 
+	.content
 	{
 		display: grid;
 		flex-direction: column;
