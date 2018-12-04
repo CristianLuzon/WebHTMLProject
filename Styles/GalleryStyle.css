@@ -19,6 +19,7 @@
 body {
 	min-height: 100vh;
 	background-color: #fafafa;
+    background: url(../Media/Images/Gallery/nani.jpg);
 }
 .gallery-item:hover img{
     filter: grayscale(0);
@@ -29,7 +30,8 @@ body {
 	padding: 0 2rem 2rem;
 }
 
-.heading {
+.cabecera {
+    /*Depende del valor */
 	font-family: "Montserrat", Arial, sans-serif;
 	font-size: 4rem;
 	font-weight: 500;
@@ -39,14 +41,15 @@ body {
 	color: #1a1a1a;
 }
 
-.heading span {
+.cabecera span {
 	display: block;
 }
 
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	/* Compensate for excess margin on outer gallery flex items */
+
+    /*Compensa el exceso de margen para los items fuera de la galeria flex*/
 	margin: -1rem -1rem;
 }
 
@@ -74,9 +77,9 @@ body {
 
 /*
 
-The following rule will only run if your browser supports CSS grid.
+La siguiente funcion tan solo funcionara si tu navegador soporta CSS grid
 
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.
+No es algo obligatorio para que funcione la página
 
 */
 
