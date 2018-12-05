@@ -5,12 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Validation</title>
 		<link rel="stylesheet" href="Styles/VadilateAgeStyle.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
 		<script>
   			function play(index){
       		var audio = document.getElementById("audio"+index);
       			audio.play();
   			}
-
 		</script>
 		<!--<a nohref value="PLAY"  onmouseover="play(1)">Your Text 1</a>
 		<a nohref value="PLAY"  onmouseover="play(2)">Your Text 2</a>-->
@@ -55,5 +55,16 @@
 			</nav>
 				<p class="copyright">© 2015-2018 Behaviour Interactive Inc. All rights reserved.</p>
 		</footer>
+		<script type="text/javascript">
+		// Scrolling Effect
+		  $(window).on("scroll", function() {
+			if($(window).scrollTop()) {
+			  $('nav').addClass('black');
+			}
+			else {
+			  $('nav').removeClass('black');
+			}
+		  })
+		</script>
 	</body>
 </html>

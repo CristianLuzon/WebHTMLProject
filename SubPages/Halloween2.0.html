@@ -24,16 +24,14 @@
 
     function play_audio(index)
     {
-      song.src = audios[index]
-      song.play();
+        song.src = audios[index]
+        song.play();
     }
-
     window.setInterval(function()
     {
-      num = Math.floor(Math.random() * audios.length);
-      play_audio(num)
-  }, 10000);
-
+        num = Math.floor(Math.random() * audios.length);
+        play_audio(num)
+    }, 10000);
   </script>
 </head>
 <body>
@@ -78,7 +76,6 @@
           $("nav ul").toggleClass("showing");
         });
       });
-
     // Scrolling Effect
       $(window).on("scroll", function() {
         if($(window).scrollTop()) {

@@ -1,23 +1,10 @@
-/*
-.grid a:hover img {
-    filter: grayscale(0);
-}*/
-
-
-
 :root {
-	/* Base font size */
 	font-size: 10px;
 }
-
-*,
-*::before,
-*::after {
+*, *::before, *::after {/*?¿*/
 	box-sizing: border-box;
 }
-
-*
-{
+*{
 	margin: 0%;
 	padding: 0%;
 	padding-top: 1%;
@@ -28,7 +15,6 @@ body {
     background: url(../Media/Images/Gallery/nani.jpg);
 	margin: 0%;
 	padding: 0%;
-
 }
 .gallery-item:hover img{
     filter: grayscale(0);
@@ -39,9 +25,7 @@ body {
 	padding: 0 2rem 2rem;
 	margin-top: 12em;
 }
-
 .cabecera {
-    /*Depende del valor */
 	font-family: "Montserrat", Arial, sans-serif;
 	font-size: 4rem;
 	font-weight: 500;
@@ -50,28 +34,20 @@ body {
 	padding: 3.5rem 0;
 	color: #1a1a1a;
 }
-
 .cabecera span {
 	display: block;
 }
-
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-
-    /*Compensa el exceso de margen para los items fuera de la galeria flex*/
 	margin: -1rem -1rem;
 }
-
 .gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
 	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	margin: 1rem;
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
 }
-
 .gallery-image {
 	display: block;
 	width: 100%;
@@ -80,27 +56,18 @@ body {
 	transition: transform 400ms ease-out;
     filter: grayscale(100%);
 }
-
 .gallery-image:hover {
 	transform: scale(1.15);
 }
-
-/*
-
-La siguiente funcion tan solo funcionara si tu navegador soporta CSS grid
-
-No es algo obligatorio para que funcione la página
-
-*/
+/*La siguiente funcion tan solo funcionara si tu navegador soporta CSS grid
+No es algo obligatorio para que funcione la página*/
 @supports (display: grid) {
 	.gallery {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 		grid-gap: 2rem;
 	}
-
-	.gallery,
-	.gallery-item {
+	.gallery, .gallery-item {
 		margin: 0;
 	}
 }
@@ -122,7 +89,6 @@ nav
 	line-height: 60px;
 	z-index: 1;
 }
-
 nav ul
 {
     line-height: 60px;
@@ -141,14 +107,12 @@ nav ul li
     display: inline-block;
     padding: 16px 20px;
 }
-
 nav ul li a
 {
     text-decoration: none;
     color: black;
     font-size: 1.9em;
 }
-
 .menu-icon
 {
     line-height: 60px;
@@ -166,7 +130,6 @@ nav ul li a
     font-size: 2.8em;
 }
 @media(max-width: 710px) {
-
     .logo
     {
         position: fixed;
@@ -189,7 +152,6 @@ nav ul li a
         width: 100%;
         padding: 1px;
         text-align: center;
-
     }
     nav ul li a
     {
@@ -209,5 +171,4 @@ nav ul li a
     {
         max-height: 34em;
     }
-
 }

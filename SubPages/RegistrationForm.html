@@ -18,20 +18,18 @@
 							  "../Media/Audio/sound_07.mp3",
 							  "../Media/Audio/sound_08.mp3");
 
-		  const song = new Audio();
+		const song = new Audio();
 
-		  function play_audio(index)
-		  {
+		function play_audio(index)
+		{
 			song.src = audios[index]
 			song.play();
-		  }
-
-		  window.setInterval(function()
-		  {
+		}
+		window.setInterval(function()
+		{
 			num = Math.floor(Math.random() * audios.length);
 			play_audio(num)
 		}, 10000);
-
 		</script>
 	</head>
 	<body>
@@ -42,7 +40,6 @@
 		          <i class="fa fa-bars" aria-hidden="true"></i>
 		        </div>
 		        <!--<div class="logo">
-
 		        </div>-->
 		        <div class="menu">
 		          <ul>
@@ -69,21 +66,17 @@
 						<label>&emsp;Name:&emsp;</label><input type="text">
 						<label>&emsp;Surnames:&emsp;</label><input type="text">
 					</div>
-
 					<div class="content">
 						<label>&emsp;Birthdate:&emsp;</label><input type="date">
 					</div>
-
 					<div class="content">
 						<label>&emsp;Lindline Phone:&emsp;</label><input type="tel" minlength="9" maxlength="9" max="999999999" value="123456789">
 						<label>&emsp;Phone Number:&emsp;</label><input type="tel" minlength="9" maxlength="9" max="999999999" value="123456789">
 					</div>
-
 					<div class="content">
 						<label>&emsp;Country:&emsp;</label><input type="text">
 						<label>&emsp;State:&emsp;</label><input type="text">
 					</div>
-
 					<div class="content">
 						<label>&emsp;Address:&emsp;</label><input type="text">
 						<label>&emsp;Postal Code:&emsp;</label><input type="numeric" minlength="4" maxlength="4" value="00000">
@@ -107,15 +100,13 @@
 					<button>Register</button>
 				</div>
 			</form>
-
 	<script type="text/javascript">
       // Menu-toggle button
-      $(document).ready(function() {
-        $(".menu-icon").on("click", function() {
-          $("nav ul").toggleClass("showing");
-        });
-      });
-
+        $(document).ready(function() {
+        	$(".menu-icon").on("click", function() {
+          		$("nav ul").toggleClass("showing");
+     	});
+     });
     // Scrolling Effect
       $(window).on("scroll", function() {
         if($(window).scrollTop()) {
@@ -123,7 +114,7 @@
         }
         else {
           $('nav').removeClass('black');
-        }
+		}
       })
     </script>
 	</body>

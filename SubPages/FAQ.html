@@ -18,20 +18,17 @@
 						  "../Media/Audio/sound_07.mp3",
 						  "../Media/Audio/sound_08.mp3");
 
-	  const song = new Audio();
-
-	  function play_audio(index)
-	  {
+	const song = new Audio();
+	function play_audio(index)
+	{
 		song.src = audios[index]
 		song.play();
-	  }
-
-	  window.setInterval(function()
-	  {
+	}
+	window.setInterval(function()
+	{
 		num = Math.floor(Math.random() * audios.length);
 		play_audio(num)
 	}, 10000);
-
 	</script>
 </head>
 <body>
@@ -52,7 +49,6 @@
         </div>
       </nav>
     </header>
-
 	<main>
 		<aside class="index">
 			<ul>
@@ -128,7 +124,6 @@
           $("nav ul").toggleClass("showing");
         });
       });
-
     // Scrolling Effect
       $(window).on("scroll", function() {
         if($(window).scrollTop()) {

@@ -96,7 +96,6 @@ button
 	background-color: rgba(153, 0, 255, 0.2);
 	border: none;
 	border-radius: 5px;
-	/*border: 0.2em solid #7a00cc;*/
 	box-shadow: 2px 2px 1px 1.1px #7a00cc;
 	transition: 0.3s;
 }
@@ -134,7 +133,6 @@ nav
 	line-height: 60px;
 	z-index: 1;
 }
-
 nav ul
 {
     line-height: 60px;
@@ -160,7 +158,6 @@ nav ul li a
     color: black;
     font-size: 1.2em;
 }
-
 .menu-icon
 {
     line-height: 60px;
@@ -177,7 +174,6 @@ nav ul li a
 {
     font-size: 2.8em;
 }
-
 @media(max-width: 930px)
 {
 	.logo
@@ -186,7 +182,6 @@ nav ul li a
         top: 0;
         margin-top: 16px;
     }
-
     nav ul
     {
         max-height: 0px;
@@ -202,7 +197,6 @@ nav ul li a
         width: 100%;
         padding: 1px;
         text-align: center;
-
     }
     nav ul li a
     {
@@ -222,7 +216,6 @@ nav ul li a
     {
         max-height: 34em;
     }
-
 	input
 	{
 		text-align: center;

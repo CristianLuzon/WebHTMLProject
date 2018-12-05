@@ -18,20 +18,18 @@
 						  "../Media/Audio/sound_07.mp3",
 						  "../Media/Audio/sound_08.mp3");
 
-	  const song = new Audio();
+	const song = new Audio();
 
-	  function play_audio(index)
-	  {
+	function play_audio(index)
+	{
 		song.src = audios[index]
 		song.play();
-	  }
-
-	  window.setInterval(function()
-	  {
+	}
+	window.setInterval(function()
+	{
 		num = Math.floor(Math.random() * audios.length);
 		play_audio(num)
 	}, 10000);
-
 	</script>
 </head>
 <body>
@@ -53,37 +51,27 @@
       </nav>
     </header>
     <div class="container">
-
 	<h1 class="cabecera">漢字</h1>
-
 	<div class="gallery">
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/ok.jpg" alt="foto">
 		</div>
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/akihabara2.jpg" alt="foto">
 		</div>
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/waifu2.jpg" alt="foto">
 		</div>
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/torre.jpg" alt="foto">
 		</div>
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/shiva.jpg" alt="foto">
 		</div>
-
 		<div class="gallery-item">
 			<img class="gallery-image" src="../Media/Images/Gallery/nanda.jpg" alt="foto">
 		</div>
-
 	</div>
-
 </div>
 <script type="text/javascript">
   // Menu-toggle button
@@ -92,7 +80,6 @@
       $("nav ul").toggleClass("showing");
     });
   });
-
 // Scrolling Effect
   $(window).on("scroll", function() {
     if($(window).scrollTop()) {
@@ -103,6 +90,5 @@
     }
   })
 </script>
-
 </body>
 </html>
