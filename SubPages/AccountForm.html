@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
 		<link rel="stylesheet" href="../Styles/AccountFStyle.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 		<script  type="text/javascript">
 			audios = new Array(
 							  "../Media/Audio/sound_01.mp3",
@@ -33,45 +34,21 @@
 		</script>
 	</head>
 	<body>
-			<div class="container">
-				<div class="wrapper">
-					<div class="company-info">
-						<h3>CONTACT US</h3>
-					</div>
 
-					<div class="contact">
-						<h3>Send me an email through this form.</h3>
-						<form>
-							<p>
-								<label>First Name</label>
-								<input type="text" name="firstname" >
-							</p>
-							<p>
-								<label>Last Name</label>
-								<input type="text" name="lastname" >
-							</p>
-							<p>
-								<label>Email Address</label>
-								<input type="email" name="email" >
-							</p>
-							<p>
-								<label>Phone Number</label>
-								<input type="text" name="phone" >
-							</p>
-							<p class="message">
-								<label>Message</label>
-								<textarea rows="5" name="message" ></textarea>
-							</p>
-							<p class="submit-btn">
-								<button >Submit</button>
-							</p>
-
-						</form>
-
-					</div>
+			<div class="contact">
+				<div class="head">
+					<h1>Contact us</h1>
 
 				</div>
+						<!--<h3>Send me an email through this form.</h3>-->
+				<form>
+					<input name="name" type="text" class="feedback-input" placeholder="Name" />
+					<input name="email" type="text" class="feedback-input" placeholder="Email" />
+					<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+					<input class="btn" type="submit" value="SUBMIT"/>
+				</form>
 
 			</div>
+
 	</body>
 </html>
