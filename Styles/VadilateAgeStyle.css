@@ -1,16 +1,70 @@
-body
+html body
 {
 	background-color: #161616;
 	padding: 0px;
 	margin: 0px;
-	margin-top: 3.2%;
 
+}
+/*pop-up*/
+*
+{
+	/*margin-top: 0%;*/
 }
 header
 {
+	margin-top: 1em;
 	text-align: center;
 	color: white;
 }
+pop-up
+{
+	margin-top: 0px;
+	position: relative;
+}
+.overlay {
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  display: none;
+  transition: 1.5s;
+}
+.window
+{
+	margin-top: 0px;
+	margin-left: 50%;
+	width: 40%;
+	max-width: 30em;
+	min-width: 7em;
+	padding:0px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border-radius: 1em;
+	border: 0.15em solid gray;
+	transform: translateX(-50%);
+
+}
+p.pop-upText
+{
+	margin: 0.7em;
+	font-size: 1.2em;
+}
+button
+{
+	margin-bottom: 1em;
+}
+/*#showp
+{
+	transform: translateY(50%);
+	transition: 1.5s;
+}
+#hidep
+{
+	transform: translateY(50%);
+	transition: 1.5s;
+}*/
 form{
 	text-align: center;
 
@@ -100,8 +154,11 @@ a
 }
 img
 {
+	z-index: -1;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	-webkit-user-drag: none;
+	background-position: center;
+	margin-left: 50%;
+	transform: translateX(-50%);
 }
