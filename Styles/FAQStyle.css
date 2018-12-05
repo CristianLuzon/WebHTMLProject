@@ -59,7 +59,7 @@ aside ul li
 }
 
 nav {
-      position: fixed;
+      position: absolute;
       width: 100%;
       line-height: 60px;
       z-index: 1;
@@ -78,7 +78,7 @@ nav ul {
 }
 nav ul li {
       display: inline-block;
-	  margin: auto 4%;
+	  margin: auto 3%;
 }
 nav ul li a {
       text-decoration: none;
@@ -114,7 +114,7 @@ nav ul li a {
 	}
 	ul li
 	{
-		margin: 1% 2%;
+
 		text-align: center;
 		list-style-type: none;
 	}

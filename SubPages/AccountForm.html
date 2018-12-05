@@ -5,6 +5,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
 		<link rel="stylesheet" href="../Styles/AccountFStyle.css">
+		<script  type="text/javascript">
+			audios = new Array(
+							  "../Media/Audio/sound_01.mp3",
+							  "../Media/Audio/Sound_02.mp3",
+							  "../Media/Audio/sound_03.mp3",
+							  "../Media/Audio/sound_04.mp3",
+							  "../Media/Audio/sound_05.mp3",
+							  "../Media/Audio/sound_06.mp3",
+							  "../Media/Audio/sound_07.mp3",
+							  "../Media/Audio/sound_08.mp3");
+
+		  const song = new Audio();
+
+		  function play_audio(index)
+		  {
+			song.src = audios[index]
+			song.play();
+		  }
+
+		  window.setInterval(function()
+		  {
+			num = Math.floor(Math.random() * audios.length);
+			play_audio(num)
+		}, 10000);
+
+		</script>
 	</head>
 	<body>
 			<div class="container">
