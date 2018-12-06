@@ -11,15 +11,21 @@ main {
     justify-content: center;
     flex-direction: column;
 }
-form { max-width:420px;
-     margin:50px auto;
+.contact
+{
+    width: 100%;
+}
+form {
+    max-width:420px;
+    margin:50px auto;
 }
 .head{
       text-align: center;
       font-family: Helvetica, Arial, sans-serif;
       color: white;
 }
-.feedback-input {
+.feedback-input
+{
   color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
@@ -135,8 +141,18 @@ form{
 {
     .feedback-input{
         text-align: left;
-
     }
+    form{
+        min-width: 233px;
+        margin-bottom: 5%;
+        display: grid;
+        flex-direction: column;
+    }
+    /*p{
+      display: grid;
+      flex-direction: column;
+    }*/
+
     .logo
 	{
         position: fixed;

@@ -20,6 +20,7 @@ pop-up
 {
 	margin-top: 0px;
 	position: relative;
+	z-index: 3;
 }
 .overlay {
   position: fixed;
@@ -55,16 +56,6 @@ button
 {
 	margin-bottom: 1em;
 }
-/*#showp
-{
-	transform: translateY(50%);
-	transition: 1.5s;
-}
-#hidep
-{
-	transform: translateY(50%);
-	transition: 1.5s;
-}*/
 form{
 	text-align: center;
 
@@ -126,6 +117,7 @@ footer
 	color: white;
 	font: inherit;
 }
+
 .footer p
 {
     font-size: 11px;
