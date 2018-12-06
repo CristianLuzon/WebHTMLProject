@@ -3,23 +3,23 @@ html, body
     margin: 0;
     padding: 0;
     width: 100%;
-    background-image: radial-gradient(#cce6ff, #ffcc80);
+    background:rgb(30,30,40);
 }
 *
 {
-	font-family: Lucida Console;
+	font-family: Helvetica, Arial, sans-serif;
 }
 main
 {
 	display: flex;
 	flex-direction: column;
-	font-family: "Georgia";
+	font-family: Helvetica, Arial, sans-serif;
 }
 h1
 {
 	text-align: center;
 	margin: 1em;
-	font-family: arial;
+	font-family: Helvetica, Arial, sans-serif;
 }
 .content
 {
@@ -79,6 +79,8 @@ input
 	-webkit-box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
 	box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
 	border-radius: 0.3em;
+    outline: none;
+
 }
 input[type=date]
 {
@@ -87,6 +89,9 @@ input[type=date]
 .buttonContenedor
 {
 	text-align: center;
+}
+button:hover {
+    background:#ef77f4;
 }
 button
 {
@@ -98,6 +103,8 @@ button
 	border-radius: 5px;
 	box-shadow: 2px 2px 1px 1.1px #7a00cc;
 	transition: 0.3s;
+    cursor:pointer;
+    outline: none;
 }
 button:active
 {
@@ -115,6 +122,12 @@ input:invalid
 	box-shadow: 0.15em -0.1em rgba(153, 0, 255, 0.2);
 	outline-style: 0.3em;
 }
+h1{
+    color: white;
+}
+input:focus{
+    border-color: grey;
+}
 .logo
 {
     line-height: 60px;
@@ -126,6 +139,7 @@ input:invalid
     font-size: 20px;
     letter-spacing: 2px;
 }
+
 nav
 {
 	position: fixed;
@@ -155,7 +169,7 @@ nav ul li
 nav ul li a
 {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2em;
 }
 .menu-icon

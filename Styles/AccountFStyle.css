@@ -49,6 +49,9 @@ textarea {
   line-height: 150%;
   resize:vertical;
 }
+input{
+    outline: none;
+}
 .btn {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;

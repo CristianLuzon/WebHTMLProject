@@ -1,6 +1,6 @@
 html body
 {
-	background-image:  radial-gradient(#ffb3ff, #8080ff);
+	background:RGB(30, 30, 32);
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -15,11 +15,13 @@ aside
 {
 	display: block;
 	padding: 15% 0% 0% 5%;
+	font-family: Helvetica, Arial, sans-serif;
 }
 article
 {
 	padding: 7% 2% 3% 2.5%;
 	display: block;
+	font-family: Helvetica, Arial, sans-serif;
 }
 p
 {
@@ -45,7 +47,7 @@ aside ul
 {
 	border: 0.2em  solid rgba(255, 204, 204 ,0.2);
 	border-radius: 5%;
-	background:  #ff8080;
+	background:  white;
 	box-shadow: 0px 0px 7px 5px rgba(255, 230, 230, 0.2);
 }
 aside ul li
@@ -55,7 +57,7 @@ aside ul li
 .content
 {
 	padding: 2%;
-	background: #ff99cc;
+	background: white;
 	border: 0.3em solid rgba(255, 204, 230, 0.2);
 	border-radius: 2%;
 	box-shadow: 0px 0px 7px 5px rgba(255, 230, 243, 0.2);
